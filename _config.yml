@@ -1,0 +1,38 @@
+#highlighter: pygments
+#markdown: kramdown
+#future: true
+#kramdown:
+#  parse_block_html: true
+#  syntax_highlighter: rouge
+#markdown: rdiscount
+#rdiscount:
+#  extensions: [smart]
+
+permalink: /:month-:day-:year/:title.html
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+port: 4000
+#safe: true
+
+# for a normal use at the base of the server change it to "/"
+baseurl: /
+title: Truong An Pham's CV
+description: Truong An Pham is currently a Ph.D. student at Aalto University.
+url: phtruongan.github.io
+author: Truong An Pham
+name: Truong An Pham
+email: truong.pham dot aalto dot fi
+website: phtruongan.github.io
+website_full: https://phtruongan.github.io
+github: phtruongan
+google_maps: 'https://goo.gl/maps/K4jX8fPdMA32'
+address:  Tietotekniikantalo, Konemiehentie 2
+postcode: \02150
+city: Espoo
+country: Finland
+google_analytics: UA-83573106-1
+
+# needed for travis-ci build
+exclude: [vendor]
