@@ -20,4 +20,14 @@
 * Javascript
 </article>
 
+<article markdown="1">
+<header>
+    <h1>Language skills</h1>
+</header>
+* Vietnamese: Native
+* English:  C1
+* Finnish:  A2
+* French:   A2 
+</article>
+
 </section>
